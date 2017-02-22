@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_my"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#e6e6e6"
+    tools:context="com.xm.ting.view.MyActivity">
+    <LinearLayout
+        android:background="#FF3030"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/linearLayout">
+        <TextView
+            android:layout_gravity="center_horizontal"
+            android:text="我的"
+            android:textSize="20dp"
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="160dp">
+    <ImageView
+        android:src="@mipmap/bei"
+        android:scaleType="fitXY"
+        android:layout_width="wrap_content"
+        android:layout_height="160dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/imageView" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:src="@mipmap/tou"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="14dp"
+        android:id="@+id/imageView2"
+        android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+    <LinearLayout
+        android:background="#fff"
+        android:id="@+id/Linea1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <TextView
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_gravity="center"
+            android:text="&#160;&#160;&#160;&#160;我的资料"
+            android:textSize="20dp"
+            android:drawableRight="@mipmap/you"
+            android:drawableLeft="@mipmap/toux"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:background="#fff"
+        android:layout_marginBottom="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <TextView
+            android:layout_marginRight="20dp"
+
+            android:layout_marginLeft="20dp"
+            android:layout_gravity="center"
+            android:text="&#160;&#160;&#160;&#160;充值中心"
+            android:textSize="20dp"
+            android:drawableRight="@mipmap/you"
+            android:drawableLeft="@mipmap/qian"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <TextView
+            android:layout_marginRight="20dp"
+
+            android:layout_marginLeft="20dp"
+            android:layout_gravity="center"
+            android:text="&#160;&#160;&#160;&#160;系统通知"
+            android:textSize="20dp"
+            android:drawableRight="@mipmap/you"
+            android:drawableLeft="@mipmap/tongzhi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <TextView
+            android:layout_marginRight="20dp"
+
+            android:layout_marginLeft="20dp"
+            android:layout_gravity="center"
+            android:text="&#160;&#160;&#160;&#160;睡眠设置"
+            android:textSize="20dp"
+            android:drawableRight="@mipmap/you"
+            android:drawableLeft="@mipmap/sui"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+         </LinearLayout>
+            <LinearLayout
+                android:background="#fff"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/imageView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true">
+                <TextView
+                    android:layout_marginRight="20dp"
+
+                    android:layout_marginLeft="20dp"
+                    android:layout_gravity="center"
+                    android:text="&#160;&#160;&#160;&#160;WIFI下载"
+                    android:textSize="20dp"
+                    android:drawableLeft="@mipmap/wifi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:background="#fff"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/imageView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true">
+                <TextView
+                    android:layout_marginRight="20dp"
+
+                    android:layout_marginLeft="20dp"
+                    android:layout_gravity="center"
+                    android:text="&#160;&#160;&#160;&#160;常见问题"
+                    android:textSize="20dp"
+                    android:drawableRight="@mipmap/you"
+                    android:drawableLeft="@mipmap/wenti"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:background="#fff"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/imageView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true">
+                <TextView
+                    android:layout_marginRight="20dp"
+
+                    android:layout_marginLeft="20dp"
+                    android:layout_gravity="center"
+                    android:text="&#160;&#160;&#160;&#160;意见反馈"
+                    android:textSize="20dp"
+                    android:drawableRight="@mipmap/you"
+                    android:drawableLeft="@mipmap/yijian"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:background="#fff"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/imageView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true">
+                <TextView
+                    android:layout_marginRight="20dp"
+
+                    android:layout_marginLeft="20dp"
+                    android:layout_gravity="center"
+                    android:text="&#160;&#160;&#160;&#160;推荐给好友"
+                    android:textSize="20dp"
+                    android:drawableRight="@mipmap/you"
+                    android:drawableLeft="@mipmap/haoyou"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:background="#fff"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/imageView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true">
+                <TextView
+                    android:layout_marginRight="20dp"
+
+                    android:layout_marginLeft="20dp"
+                    android:layout_gravity="center"
+                    android:text="&#160;&#160;&#160;&#160;关于"
+                    android:textSize="20dp"
+                    android:drawableRight="@mipmap/you"
+                    android:drawableLeft="@mipmap/guanyu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:background="#fff"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/imageView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true">
+                <TextView
+                    android:layout_marginRight="20dp"
+
+                    android:layout_marginLeft="20dp"
+                    android:layout_gravity="center"
+                    android:text="&#160;&#160;&#160;&#160;检查更新"
+                    android:textSize="20dp"
+                    android:drawableRight="@mipmap/you"
+                    android:drawableLeft="@mipmap/genxin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:background="#fff"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_below="@+id/imageView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true">
+                <TextView
+                    android:gravity="center"
+                    android:layout_marginLeft="20dp"
+                    android:layout_gravity="center"
+                    android:text="切换/登录"
+                    android:textSize="30dp"
+                    android:textColor="#d81e06"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

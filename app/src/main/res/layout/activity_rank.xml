@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_rank"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.xm.ting.fragment.RankActivity">
+<android.support.v4.view.ViewPager
+    android:layout_width="match_parent"
+    android:layout_height="150dp">
+
+</android.support.v4.view.ViewPager>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+    <LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="200dp">
+    <TextView
+        android:paddingLeft="15dp"
+        android:layout_gravity="center"
+        android:drawableLeft="@mipmap/lie"
+        android:text="红色传奇"
+        android:textSize="18dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="160dp"/>
+
+        <TextView
+            android:gravity="center"
+            android:text="查看全部"
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+        </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+                <TextView
+                    android:paddingLeft="15dp"
+                    android:layout_gravity="center"
+                    android:drawableLeft="@mipmap/lie"
+                    android:text="小说频道"
+                    android:textSize="18dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <ListView
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"/>
+
+                <TextView
+                    android:gravity="center"
+                    android:text="查看全部"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+                <TextView
+                    android:paddingLeft="15dp"
+                    android:layout_gravity="center"
+                    android:drawableLeft="@mipmap/lie"
+                    android:text="故事中国"
+                    android:textSize="18dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <ListView
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"/>
+
+                <TextView
+                    android:gravity="center"
+                    android:text="查看全部"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
