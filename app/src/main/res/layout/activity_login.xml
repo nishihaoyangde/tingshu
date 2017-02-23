@@ -34,41 +34,7 @@
             android:paddingRight="10dp"
             android:textColor="#fff"
             android:id="@+id/logintv2"/>
-
     </RelativeLayout>
-
-    <LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:orientation="vertical"
-    android:layout_alignParentBottom="true"
-    >
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="  QQ账号登陆"
-        android:drawableLeft="@mipmap/qq"
-        android:paddingLeft="10dp"
-        android:layout_gravity="center"
-        android:drawableRight="@mipmap/more"/>
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text=" 微信账号登陆"
-        android:drawableLeft="@mipmap/wx"
-        android:paddingLeft="10dp"
-        android:layout_gravity="center"
-        android:drawableRight="@mipmap/more"/>
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="  新浪微博登陆"
-        android:drawableLeft="@mipmap/sina"
-        android:paddingLeft="10dp"
-        android:layout_gravity="center"
-        android:drawableRight="@mipmap/more"/>
-    </LinearLayout>
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -77,7 +43,6 @@
         android:paddingRight="10dp"
         android:layout_below="@+id/linearLayout1"
         android:layout_marginTop="10dp">
-
         <EditText
             android:layout_width="match_parent"
             android:layout_height="40dp"
@@ -95,7 +60,6 @@
             android:drawableLeft="@mipmap/suo"
             android:layout_marginTop="10dp"
             />
-
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -103,16 +67,48 @@
             android:background="#ff6600"
             android:onClick="login"
             android:layout_marginTop="10dp"
+            android:id="@+id/loginbt1"
             />
-
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="忘记密码"
             android:gravity="center"
             android:onClick="Forgotpassword "
-            android:layout_marginTop="10dp"/>
+            android:layout_marginTop="10dp"
+            android:id="@+id/logintv3"/>
     </LinearLayout>
-
-
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="  QQ账号登陆"
+            android:drawableLeft="@mipmap/qq"
+            android:paddingLeft="10dp"
+            android:gravity="fill_vertical"
+            android:drawableRight="@mipmap/more"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" 微信账号登陆"
+            android:drawableLeft="@mipmap/wx"
+            android:paddingLeft="10dp"
+            android:gravity="fill_vertical"
+            android:layout_gravity="center"
+            android:drawableRight="@mipmap/more"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="  新浪微博登陆"
+            android:drawableLeft="@mipmap/sina"
+            android:paddingLeft="10dp"
+            android:gravity="fill_vertical"
+            android:drawableRight="@mipmap/more"/>
+    </LinearLayout>
 </RelativeLayout>
