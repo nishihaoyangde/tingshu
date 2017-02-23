@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="#e6e6e6"
-    tools:context="com.xm.ting.view.MyActivity">
+    tools:context="com.xm.ting.fragment.MyActivity">
     <LinearLayout
         android:background="#FF3030"
         android:orientation="vertical"
