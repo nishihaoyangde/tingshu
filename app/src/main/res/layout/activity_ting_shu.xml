@@ -6,66 +6,19 @@
     android:layout_height="match_parent"
     tools:context="com.xm.ting.view.TingShuActivity">
 
-    <LinearLayout
-        android:orientation="horizontal"
-        android:background="#FF3030"
-        android:layout_width="match_parent"
-        android:layout_height="45dp"
-        android:id="@+id/linearLayout2">
-        <Button
-            android:onClick="tuijian"
-            android:background="#FF3030"
-            android:layout_weight="1"
-            android:layout_gravity="center"
-            android:paddingLeft="20dp"
-            android:id="@+id/tuitext"
-            android:text="推荐"
-            android:textSize="23dp"
-            android:textColor="#fff"
-            android:layout_width="wrap_content"
-            android:layout_height="36dp" />
-        <Button
-            android:layout_weight="1"
-            android:background="#FF3030"
-            android:onClick="fenlei"
-            android:layout_gravity="center"
-            android:id="@+id/fentext"
-            android:text="分类"
-            android:textSize="23dp"
-            android:textColor="#fff"
-            android:layout_width="wrap_content"
-            android:layout_height="36dp" />
-        <Button
-            android:layout_weight="1"
-            android:background="#FF3030"
-            android:onClick="paihang"
-            android:layout_gravity="center"
-            android:id="@+id/paitext"
-            android:text="排行"
-            android:textSize="23dp"
-            android:textColor="#fff"
-            android:layout_width="wrap_content"
-            android:layout_height="36dp" />
-    <Button
-        android:layout_weight="7"
-        android:layout_gravity="center"
-        android:id="@+id/suobut"
-        android:drawableRight="@mipmap/sou"
-        android:background="#FF3030"
-        android:paddingRight="20dp"
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-       />
-    </LinearLayout>
-
-
+<LinearLayout
+    android:id="@+id/yin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@+id/linearLayout2"
+    android:layout_above="@+id/radioGroup">
     <include
+
                 layout="@layout/activity_log"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_below="@+id/linearLayout2"
-                android:layout_above="@+id/radioGroup" />
-
+          />
+</LinearLayout>
     <RadioGroup
 
         android:orientation="horizontal"
@@ -83,8 +36,7 @@
             android:id="@+id/Tbut"
             android:button="@null"
             android:onClick="tingshu"
-            android:checked="true"
-            android:textColor="@drawable/selected_ic_find"
+
             android:drawableTop="@mipmap/ting"
             android:text="听书"
             android:layout_width="wrap_content"
@@ -95,8 +47,7 @@
             android:button="@null"
             android:id="@+id/Xbut"
             android:onClick="xiazai"
-            android:checked="true"
-            android:textColor="@drawable/selected_ic_find"
+
             android:drawableTop="@mipmap/xia"
             android:text="下载"
             android:layout_width="wrap_content"
@@ -107,8 +58,7 @@
             android:button="@null"
             android:id="@+id/Bbut"
             android:onClick="bofang"
-            android:checked="true"
-            android:textColor="@drawable/selected_ic_find"
+
             android:drawableTop="@mipmap/bb"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
@@ -118,8 +68,7 @@
             android:button="@null"
             android:id="@+id/Sbut"
             android:onClick="shoucang"
-            android:checked="true"
-            android:textColor="@drawable/selected_ic_find"            android:drawableTop="@mipmap/shouc"
+            android:drawableTop="@mipmap/shouc"
             android:text="收藏"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
@@ -129,8 +78,7 @@
             android:button="@null"
             android:id="@+id/Wbut"
             android:onClick="wode"
-            android:checked="true"
-            android:textColor="@drawable/selected_ic_find"            android:drawableTop="@mipmap/w"
+            android:drawableTop="@mipmap/w"
             android:text="我的"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />

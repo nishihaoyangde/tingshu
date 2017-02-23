@@ -29,17 +29,17 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".view.LogActivity" />
-        <activity android:name=".fragment.ClassifyActivity" />
+        <activity android:name=".fragment.RecommendFragment" />
+        <activity android:name=".fragment.ClassifyFragment" />
         <activity android:name=".view.DownloadActivity" />
-        <activity android:name=".view.CollectActivity" />
-        <activity android:name=".view.MyActivity" />
+        <activity android:name=".fragment.CollectActivity" />
+        <activity android:name=".fragment.MyActivity" />
         <activity android:name=".view.TaleActivity" />
         <activity android:name=".view.NovelActivity" />
         <activity android:name=".view.ChinaActivity" />
         <activity android:name=".view.SignActivity" />
         <activity android:name=".view.TingShuActivity" />
-        <activity android:name=".fragment.RankActivity"></activity>
+        <activity android:name=".fragment.RankFragment"></activity>
     </application>
 
 </manifest>
