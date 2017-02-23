@@ -1,12 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_log"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context="com.xm.ting.view.LogActivity">
+    tools:context="com.xm.ting.fragment.RecommendFragment">
 
+    <LinearLayout
+        android:orientation="horizontal"
+        android:background="#FF3030"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:id="@+id/linearLayout2">
+        <Button
+            android:onClick="tuijian"
+            android:background="#FF3030"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:paddingLeft="20dp"
+            android:id="@+id/tuitext"
+            android:text="推荐"
+            android:textSize="23dp"
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp" />
+        <Button
+            android:layout_weight="1"
+            android:background="#FF3030"
+            android:onClick="fenlei"
+            android:layout_gravity="center"
+            android:id="@+id/fentext"
+            android:text="分类"
+            android:textSize="23dp"
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp" />
+        <Button
+            android:layout_weight="1"
+            android:background="#FF3030"
+            android:onClick="paihang"
+            android:layout_gravity="center"
+            android:id="@+id/paitext"
+            android:text="排行"
+            android:textSize="23dp"
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp" />
+        <Button
+            android:layout_weight="7"
+            android:layout_gravity="center"
+            android:id="@+id/suobut"
+            android:drawableRight="@mipmap/sou"
+            android:background="#FF3030"
+            android:paddingRight="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            />
+    </LinearLayout>
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
@@ -91,4 +141,4 @@
             </LinearLayout>
         </LinearLayout>
     </ScrollView>
-</LinearLayout>
+</RelativeLayout>

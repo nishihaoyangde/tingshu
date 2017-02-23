@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <RelativeLayout
+        android:background="#FF3030"
+
+
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/linearLayout1">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/imageButton"
+            android:background="@mipmap/back"
+            />
+        <TextView
+            android:text="用户登录"
+            android:textSize="20dp"
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv1"
+            android:layout_centerInParent="true"
+           />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_below ="@id/linearLayout1">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="请输入手机号码"
+            android:inputType="number"
+            android:maxLength="11"
+            android:id="@+id/myprofileloginnumer"
+            android:drawableLeft="@mipmap/profiletou"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="请输入密码"
+            android:id="@+id/myprofileloginpassword"
+            android:drawableLeft="@mipmap/suo"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="登陆"
+            android:background="#ff6600"
+            android:onClick="login"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="忘记密码"
+            android:gravity="center"
+            android:onClick="Forgotpassword "/>
+    </LinearLayout>
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_alignParentBottom="true"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="  QQ账号登陆"
+        android:drawableLeft="@mipmap/qq"
+        android:paddingLeft="10dp"
+        android:layout_gravity="center"
+        android:drawableRight="@mipmap/more"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" 微信账号登陆"
+        android:drawableLeft="@mipmap/wx"
+        android:paddingLeft="10dp"
+        android:layout_gravity="center"
+        android:drawableRight="@mipmap/more"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="  新浪微博登陆"
+        android:drawableLeft="@mipmap/sina"
+        android:paddingLeft="10dp"
+        android:layout_gravity="center"
+        android:drawableRight="@mipmap/more"/>
+    </LinearLayout>
+
+
+</RelativeLayout>
