@@ -2,6 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
      android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#ededed"
     >
     <RelativeLayout
         android:background="#FF3030"
@@ -44,6 +45,7 @@
         android:layout_below="@+id/linearLayout1"
         android:layout_marginTop="10dp">
         <EditText
+            android:background="#fff"
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:hint="请输入手机号码"
@@ -53,6 +55,7 @@
             android:drawableLeft="@mipmap/profiletou"
             android:layout_marginTop="10dp"/>
         <EditText
+            android:background="#fff"
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:hint="请输入密码"
