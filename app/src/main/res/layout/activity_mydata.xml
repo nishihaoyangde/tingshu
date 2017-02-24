@@ -73,6 +73,7 @@
          android:layout_below="@id/mydataET1"
          android:orientation="horizontal">
          <RadioGroup
+
              android:layout_width="wrap_content"
              android:layout_height="wrap_content"
              android:orientation="horizontal">
@@ -81,7 +82,10 @@
                  android:layout_height="wrap_content"
                  android:src="@mipmap/xingbie"/>
              <RadioButton
-                 android:layout_marginLeft="5dp"
+                 android:layout_gravity="center_vertical"
+                 android:button="@null"
+                 android:drawableLeft="@mipmap/yuanquan1"
+                 android:layout_marginLeft="10dp"
                  android:layout_width="wrap_content"
                  android:layout_height="wrap_content"
                  android:text="男"
@@ -89,6 +93,9 @@
                  android:id="@+id/mydataRadioBt1"
                  />
              <RadioButton
+                 android:layout_gravity="center_vertical"
+                 android:button="@null"
+                 android:drawableLeft="@mipmap/yuanquan1"
                  android:layout_marginLeft="20dp"
                  android:layout_width="wrap_content"
                  android:layout_height="wrap_content"
