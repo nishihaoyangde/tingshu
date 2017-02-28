@@ -5,12 +5,14 @@ import android.support.v7.app.AppCompatActivity;
 
 import com.xm.ting.R;
 
-public class DownloadActivity extends AppCompatActivity {
+/**
+ * Created by Administrator on 2017/2/27.
+ */
 
+public class changesspassActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_download);
+        setContentView(R.layout.activity_changepass);
     }
 }
-
