@@ -29,6 +29,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".view.loginActivity"/>
+        <activity android:name=".view.MydataActivity"/>
         <activity android:name=".fragment.RecommendFragment" />
         <activity android:name=".fragment.ClassifyFragment" />
         <activity android:name=".view.DownloadActivity" />
